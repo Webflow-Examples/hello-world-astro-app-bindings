@@ -6,6 +6,7 @@ type Runtime = import("@astrojs/cloudflare").Runtime<{
   SESSIONS: KVNamespace;
   FLAGS: KVNamespace;
   MEDIA: R2Bucket;
+  SENTRY_DSN?: string;
 }>;
 
 declare namespace App {
