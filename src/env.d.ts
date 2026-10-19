@@ -3,7 +3,7 @@
 
 type Runtime = import("@astrojs/cloudflare").Runtime<{
   DB: D1Database;
-  SESSIONS: KVNamespace;
+  SESSION: KVNamespace;
   FLAGS: KVNamespace;
   MEDIA: R2Bucket;
 }>;

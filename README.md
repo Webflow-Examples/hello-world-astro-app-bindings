@@ -50,7 +50,7 @@ Full walkthrough: <https://developers.webflow.com/webflow-cloud/quickstart>.
 | ---------- | ---- | --------------- | ---------------------------------------------------------------------------- |
 | `DB`       | D1   | `wrangler.json` | [D1](https://developers.webflow.com/webflow-cloud/storing-data/sqlite)               |
 | `MEDIA`    | R2   | `wrangler.json` | [R2](https://developers.webflow.com/webflow-cloud/storing-data/object-storage)               |
-| `SESSIONS` | KV   | `wrangler.json` | [KV](https://developers.webflow.com/webflow-cloud/storing-data/key-value-store)               |
+| `SESSION`  | KV   | `wrangler.json` | [KV](https://developers.webflow.com/webflow-cloud/storing-data/key-value-store)               |
 | `FLAGS`    | KV   | `wrangler.json` | [KV Flags](https://developers.webflow.com/webflow-cloud/storing-data/key-value-store)   |
 
 Access them from any API route via `locals.runtime.env`:

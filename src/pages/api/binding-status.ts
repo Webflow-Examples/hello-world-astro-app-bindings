@@ -88,7 +88,7 @@ export const GET: APIRoute = async ({ locals }) => {
 
   const [d1, kv_sessions, kv_flags, r2] = await Promise.all([
     checkD1(env.DB as D1Database | undefined),
-    checkKV(env.SESSIONS as KVNamespace | undefined, "SESSIONS"),
+    checkKV(env.SESSION as KVNamespace | undefined, "SESSION"),
     checkKV(env.FLAGS as KVNamespace | undefined, "FLAGS"),
     checkR2(env.MEDIA as R2Bucket | undefined),
   ]);
