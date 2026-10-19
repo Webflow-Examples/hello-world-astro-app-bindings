@@ -24,7 +24,7 @@ The page shows:
 - Framework: **Astro 5** with `@astrojs/cloudflare` adapter (SSR)
 - Styling: Tailwind v3 (`@astrojs/tailwind`) + `wf-*` brand tokens
 - Deploy target: Cloudflare Workers via **Webflow Cloud** (`wrangler.json`)
-- Bindings: `DB` (D1), `SESSIONS` + `FLAGS` (KV), `MEDIA` (R2)
+- Bindings: `DB` (D1), `SESSION` + `FLAGS` (KV), `MEDIA` (R2)
 
 ## Repo layout
 
@@ -69,7 +69,7 @@ Declared in `wrangler.json`:
 | Binding    | Kind | Purpose                         |
 | ---------- | ---- | ------------------------------- |
 | `DB`       | D1   | SQL database (Drizzle migrations in `drizzle/`) |
-| `SESSIONS` | KV   | Session store                   |
+| `SESSION`  | KV   | Session store                   |
 | `FLAGS`    | KV   | Feature flags                   |
 | `MEDIA`    | R2   | Object storage                  |
 
